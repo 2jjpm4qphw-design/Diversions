@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-05T13:22:32.375Z",
+  "generatedAt": "2026-08-05T13:25:56.549Z",
   "source": "weekly curator",
-  "count": 27,
+  "count": 32,
   "catalogue": [
     {
       "id": "d-channel4-army-of-shadows",
@@ -10,6 +10,14 @@
       "type": "tv",
       "date": "2026",
       "blurb": "Near-future reimagining from The Day of the Jackal’s Ronan Bennett."
+    },
+    {
+      "id": "d-itv-believe-me",
+      "title": "Believe Me",
+      "platform": "itv",
+      "type": "tv",
+      "date": "2026",
+      "blurb": "ITV drama telling the story of the victims of John Worboys, the black-cab rapist; with Daniel Mays."
     },
     {
       "id": "d-netflix-emily-in-paris-season-6",
@@ -52,6 +60,30 @@
       "blurb": "Witness-protection thriller with Bella Ramsey and Daisy Haggard."
     },
     {
+      "id": "d-skyone-meantime",
+      "title": "Meantime",
+      "platform": "skyone",
+      "type": "tv",
+      "date": "2026",
+      "blurb": "Frankie Boyle's comic crime thriller — a Sky Original."
+    },
+    {
+      "id": "d-alibi-mudtown",
+      "title": "Mudtown",
+      "platform": "alibi",
+      "type": "tv",
+      "date": "2026",
+      "blurb": "New U&Alibi crime drama."
+    },
+    {
+      "id": "d-u-neil-martin-s-bon-voyage",
+      "title": "Neil & Martin's Bon Voyage",
+      "platform": "u",
+      "type": "tv",
+      "date": "2026",
+      "blurb": "New U&Gold comedy."
+    },
+    {
       "id": "d-skyatlantic-possession",
       "title": "Possession",
       "platform": "skyatlantic",
@@ -66,6 +98,14 @@
       "type": "tv",
       "date": "2026",
       "blurb": "Alan Ritchson returns as Jack Reacher."
+    },
+    {
+      "id": "d-skyone-superfakes",
+      "title": "Superfakes",
+      "platform": "skyone",
+      "type": "tv",
+      "date": "2026",
+      "blurb": "A24 crime drama created by Alice Ju, with Lucy Liu and Ken Leung."
     },
     {
       "id": "d-skyatlantic-sweetpea-season-2",
