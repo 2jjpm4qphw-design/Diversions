@@ -139,27 +139,41 @@
 
   // ---- seed catalogue (used until the Gist / weekly curator supplies one) ----
   var SEED=[
-    {id:'d-heist-century', title:'The Heist of the Century', platform:'prime', type:'film', date:'2026-08-01', blurb:'Comedy heist with Anne Hathaway and Rebel Wilson.'},
-    {id:'d-alley-cats', title:'Alley Cats', platform:'netflix', type:'tv', date:'2026-08-07', blurb:'New Netflix series.'},
-    {id:'d-tires-3', title:'Tires — Season 3', platform:'netflix', type:'tv', date:'2026-08-13', blurb:'Shawn & Will’s garage comedy returns.'},
-    {id:'d-outer-banks-5', title:'Outer Banks — Season 5', platform:'netflix', type:'tv', date:'2026-08-20', blurb:'The final season of the treasure-hunt drama.'},
-    {id:'d-whisper-man', title:'The Whisper Man', platform:'netflix', type:'film', date:'2026-08', blurb:'Chilling crime thriller adaptation.'},
-    {id:'d-reacher-4', title:'Reacher — Season 4', platform:'prime', type:'tv', date:'2026-08', blurb:'Alan Ritchson returns as Jack Reacher.'},
-    {id:'d-last-showgirl', title:'The Last Showgirl', platform:'prime', type:'film', date:'2026-08', blurb:'Pamela Anderson as a veteran Vegas dancer.'},
-    {id:'d-red-sonja', title:'Red Sonja', platform:'prime', type:'film', date:'2026-08', blurb:'Sword-and-sorcery reboot.'},
-    {id:'d-camp-rock-3', title:'Camp Rock 3', platform:'disney', type:'film', date:'2026', blurb:'The musical franchise returns.'},
-    {id:'d-futurama-14', title:'Futurama — Season 14', platform:'disney', type:'tv', date:'2026', blurb:'More from Planet Express.'},
-    {id:'d-rof-retribution', title:'Rise of the Footsoldier: Retribution', platform:'cinema', type:'film', date:'2026-08-28', blurb:'The British crime saga continues.'},
-    {id:'d-robin-hood-death', title:'The Death of Robin Hood', platform:'cinema', type:'film', date:'2026-09-04', blurb:'A darker take on the legend.'},
-    {id:'d-practical-magic-2', title:'Practical Magic 2', platform:'cinema', type:'film', date:'2026-09-11', blurb:'Sandra Bullock and Nicole Kidman return.'},
-    {id:'d-runner', title:'Runner', platform:'cinema', type:'film', date:'2026-09-11', blurb:'New thriller.'},
-    {id:'d-sense-sensibility', title:'Sense and Sensibility', platform:'cinema', type:'film', date:'2026-09-25', blurb:'A fresh Austen adaptation.'},
-    {id:'d-hamnet', title:'Hamnet', platform:'cinema', type:'film', date:'2026', blurb:'Awards-season drama from Chloé Zhao.'},
-    {id:'d-zootopia-2', title:'Zootopia 2', platform:'cinema', type:'film', date:'2026-11', blurb:'Disney animation sequel (cinema first).'},
-    {id:'d-predator-badlands', title:'Predator: Badlands', platform:'cinema', type:'film', date:'2026-11', blurb:'New Predator film (cinema first).'},
-    {id:'d-the-lady', title:'The Lady', platform:'iplayer', type:'tv', date:'2026', blurb:'Royal drama from The Crown team; Natalie Dormer as Jane Andrews.'},
-    {id:'d-maya', title:'Maya', platform:'channel4', type:'tv', date:'2026', blurb:'Witness-protection thriller with Bella Ramsey and Daisy Haggard.'},
-    {id:'d-army-of-shadows', title:'Army of Shadows', platform:'channel4', type:'tv', date:'2026', blurb:'Near-future reimagining from The Day of the Jackal’s Ronan Bennett.'}
+    // ---- Cinema ----
+    {id:'d-cinema-rise-of-the-footsoldier-retribution', title:'Rise of the Footsoldier: Retribution', platform:'cinema', type:'film', date:'2026-08-28', blurb:'The British crime saga continues.'},
+    {id:'d-cinema-the-death-of-robin-hood', title:'The Death of Robin Hood', platform:'cinema', type:'film', date:'2026-09-04', blurb:'A darker take on the legend.'},
+    {id:'d-cinema-the-uprising', title:'The Uprising', platform:'cinema', type:'film', date:'2026-09-11', blurb:'Paul Greengrass thriller with Andrew Garfield and Jamie Bell.'},
+    {id:'d-cinema-practical-magic-2', title:'Practical Magic 2', platform:'cinema', type:'film', date:'2026-09-11', blurb:'Sandra Bullock and Nicole Kidman return.'},
+    {id:'d-cinema-manhunter', title:'Manhunter', platform:'cinema', type:'film', date:'2026-09-25', blurb:'Studiocanal thriller.'},
+    {id:'d-cinema-sense-and-sensibility', title:'Sense and Sensibility', platform:'cinema', type:'film', date:'2026-09-25', blurb:'Georgia Oakley’s Austen adaptation — Daisy Edgar-Jones, Caitríona Balfe, George MacKay, Fiona Shaw.'},
+    {id:'d-cinema-digger', title:'Digger', platform:'cinema', type:'film', date:'2026-10-02', blurb:'Iñárritu film starring Tom Cruise, Sandra Hüller and John Goodman.'},
+    {id:'d-cinema-verity', title:'Verity', platform:'cinema', type:'film', date:'2026-10-02', blurb:'Thriller adapted from the Colleen Hoover novel (Sony).'},
+    {id:'d-cinema-zootopia-2', title:'Zootopia 2', platform:'cinema', type:'film', date:'2026-11', blurb:'Disney animation sequel (cinema first).'},
+    {id:'d-cinema-predator-badlands', title:'Predator: Badlands', platform:'cinema', type:'film', date:'2026-11', blurb:'New Predator film (cinema first).'},
+    {id:'d-cinema-hamnet', title:'Hamnet', platform:'cinema', type:'film', date:'2026', blurb:'Awards-season drama from Chloé Zhao.'},
+    // ---- Netflix ----
+    {id:'d-netflix-outer-banks-season-5', title:'Outer Banks — Season 5', platform:'netflix', type:'tv', date:'2026-08-20', blurb:'The final season of the treasure-hunt drama.'},
+    {id:'d-netflix-the-gentlemen-season-2', title:'The Gentlemen — Season 2', platform:'netflix', type:'tv', date:'2026-09-03', blurb:'Guy Ritchie’s crime comedy returns, this time set in Italy.'},
+    {id:'d-netflix-monster-the-lizzie-borden-story', title:'Monster: The Lizzie Borden Story', platform:'netflix', type:'tv', date:'2026-09', blurb:'Ryan Murphy’s anthology takes on the Borden case.'},
+    {id:'d-netflix-lupin-part-4', title:'Lupin — Part 4', platform:'netflix', type:'tv', date:'2026', blurb:'Omar Sy returns as gentleman thief Assane Diop (autumn 2026).'},
+    {id:'d-netflix-emily-in-paris-season-6', title:'Emily in Paris — Season 6', platform:'netflix', type:'tv', date:'2026', blurb:'Confirmed by Netflix; date not yet announced.'},
+    {id:'d-netflix-the-whisper-man', title:'The Whisper Man', platform:'netflix', type:'film', date:'2026', blurb:'Chilling crime thriller adaptation.'},
+    // ---- Prime Video ----
+    {id:'d-prime-reacher-season-4', title:'Reacher — Season 4', platform:'prime', type:'tv', date:'2026', blurb:'Alan Ritchson returns as Jack Reacher.'},
+    {id:'d-prime-the-last-showgirl', title:'The Last Showgirl', platform:'prime', type:'film', date:'2026', blurb:'Pamela Anderson as a veteran Vegas dancer.'},
+    // ---- Disney+ ----
+    {id:'d-disney-futurama-season-14', title:'Futurama — Season 14', platform:'disney', type:'tv', date:'2026', blurb:'More from Planet Express.'},
+    // ---- BBC iPlayer ----
+    {id:'d-iplayer-the-lady', title:'The Lady', platform:'iplayer', type:'tv', date:'2026', blurb:'Royal drama from The Crown team; Natalie Dormer as Jane Andrews.'},
+    // ---- Channel 4 ----
+    {id:'d-channel4-maya', title:'Maya', platform:'channel4', type:'tv', date:'2026', blurb:'Witness-protection thriller with Bella Ramsey and Daisy Haggard.'},
+    {id:'d-channel4-army-of-shadows', title:'Army of Shadows', platform:'channel4', type:'tv', date:'2026', blurb:'Near-future reimagining from The Day of the Jackal’s Ronan Bennett.'},
+    // ---- Sky Atlantic ----
+    {id:'d-skyatlantic-sweetpea-season-2', title:'Sweetpea — Season 2', platform:'skyatlantic', type:'tv', date:'2026', blurb:'Darkly comic thriller with Ella Purnell, Tamsin Greig and Rish Shah.'},
+    {id:'d-skyatlantic-yaga', title:'Yaga', platform:'skyatlantic', type:'tv', date:'2026', blurb:'Mystery thriller with Carrie-Anne Moss and Noah Reid.'},
+    {id:'d-skyatlantic-possession', title:'Possession', platform:'skyatlantic', type:'tv', date:'2026', blurb:'Karla Crome’s five-part inheritance drama set in Jamaica.'},
+    // ---- Alibi (U&Alibi) ----
+    {id:'d-alibi-bookish-series-2', title:'Bookish — Series 2', platform:'alibi', type:'tv', date:'2026-08-26', blurb:'Mark Gatiss’s 1940s sleuth Gabriel Book returns for three new cases on U&Alibi.'}
   ];
 
   // ---- state ----
@@ -170,6 +184,16 @@
   try{ var f=JSON.parse(lsGet(DIV_FILT_KEY)||'null'); if(f){ filt.plat=f.plat||'all'; filt.int=f.int||'all'; } }catch(_){ }
 
   function setStatus(t){ var el=$('[data-status]'); if(el) el.textContent=t||''; }
+
+  // ---- Catalogue (auto-updated weekly by the curator task, pushed to this repo as catalogue.json) ----
+  // Priority: catalogue.json (repo, kept current) > baked SEED. Interest always comes from the gist.
+  function fetchCatalogue(){
+    return fetch('./catalogue.json',{cache:'no-store'}).then(function(r){ if(!r.ok) throw 0; return r.json(); }).then(function(j){
+      var arr = Array.isArray(j) ? j : (j && Array.isArray(j.catalogue) ? j.catalogue : null);
+      if(arr && arr.length) CATALOGUE=arr;
+      return true;
+    }).catch(function(){ return false; });
+  }
 
   // ---- Gist ----
   function pull(){
@@ -288,13 +312,13 @@
     if(!id||!tk){ err.textContent='Enter both the Gist ID and a token.'; err.hidden=false; return; }
     saveCreds(id,tk);
     err.hidden=true; setStatus('connecting…');
-    pull().then(function(){ openApp(); }).catch(function(e){ err.textContent='Could not connect: '+(e.message||'error'); err.hidden=false; });
+    pull().then(function(){ openApp(); return fetchCatalogue(); }).then(renderCurrent).catch(function(e){ err.textContent='Could not connect: '+(e.message||'error'); err.hidden=false; });
   }
   // boot
-  if(creds){ openApp(); pull().then(renderCurrent).catch(function(){ setStatus('offline'); }); }
-  else { openSetup(); }
+  if(creds){ openApp(); pull().catch(function(){ setStatus('offline'); }).then(fetchCatalogue).then(renderCurrent); }
+  else { openSetup(); fetchCatalogue(); }
   // periodic refresh of the catalogue/interest
-  setInterval(function(){ if(creds && !document.hidden){ pull().then(renderCurrent).catch(function(){}); } }, 5*60*1000);
+  setInterval(function(){ if(creds && !document.hidden){ pull().catch(function(){}).then(fetchCatalogue).then(renderCurrent); } }, 5*60*1000);
   if('serviceWorker' in navigator){ try{ var _r=navigator.serviceWorker.register('./sw.js'); if(_r&&_r.catch) _r.catch(function(){}); }catch(_){ } }
 })();
 </script>

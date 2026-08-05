@@ -4,7 +4,7 @@
  * (read-modify-write) is unchanged.
  * Bump CACHE on every shell change so phones pick up the new version.
  */
-var CACHE = 'diversions-v1';
+var CACHE = 'diversions-v2';
 var SHELL = [
   './',
   './index.html',
@@ -37,6 +37,18 @@ self.addEventListener('fetch', function (e) {
   try { url = new URL(req.url); } catch (_) { return; }
   // Leave cross-origin requests (GitHub gist API) untouched.
   if (url.origin !== self.location.origin) return;
+
+  // Catalogue is refreshed weekly by the curator task — always try the network
+  // first so a new push shows, falling back to cache only when offline.
+  if (url.pathname.endsWith('/catalogue.json') || url.pathname.endsWith('catalogue.json')) {
+    e.respondWith(
+      fetch(req).then(function (res) {
+        if (res && res.ok) { var copy = res.clone(); caches.open(CACHE).then(function (c) { c.put(req, copy); }); }
+        return res;
+      }).catch(function () { return caches.match(req); })
+    );
+    return;
+  }
 
   if (req.mode === 'navigate') {
     e.respondWith(
