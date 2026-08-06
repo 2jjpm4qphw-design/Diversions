@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-05T13:25:56.549Z",
+  "generatedAt": "2026-08-06T20:00:04.211Z",
   "source": "weekly curator",
-  "count": 32,
+  "count": 45,
   "catalogue": [
     {
       "id": "d-channel4-army-of-shadows",
@@ -18,6 +18,14 @@
       "type": "tv",
       "date": "2026",
       "blurb": "ITV drama telling the story of the victims of John Worboys, the black-cab rapist; with Daniel Mays."
+    },
+    {
+      "id": "d-netflix-chiaroscuro",
+      "title": "Chiaroscuro",
+      "platform": "netflix",
+      "type": "tv",
+      "date": "2026",
+      "blurb": "Murder-mystery set in Rome's National Gallery."
     },
     {
       "id": "d-netflix-emily-in-paris-season-6",
@@ -49,7 +57,7 @@
       "platform": "netflix",
       "type": "tv",
       "date": "2026",
-      "blurb": "Omar Sy returns as gentleman thief Assane Diop (autumn 2026)."
+      "blurb": "Omar Sy returns as gentleman thief Assane Diop."
     },
     {
       "id": "d-channel4-maya",
@@ -90,6 +98,14 @@
       "type": "tv",
       "date": "2026",
       "blurb": "Karla Crome’s five-part inheritance drama set in Jamaica."
+    },
+    {
+      "id": "d-netflix-quasimodo",
+      "title": "Quasimodo",
+      "platform": "netflix",
+      "type": "film",
+      "date": "2026",
+      "blurb": "French film starring Vincent Cassel."
     },
     {
       "id": "d-prime-reacher-season-4",
@@ -148,12 +164,36 @@
       "blurb": "Mystery thriller with Carrie-Anne Moss and Noah Reid."
     },
     {
+      "id": "d-cinema-paw-patrol-the-dino-movie",
+      "title": "Paw Patrol: The Dino Movie",
+      "platform": "cinema",
+      "type": "film",
+      "date": "2026-08-07",
+      "blurb": "The pups take on a dinosaur adventure."
+    },
+    {
+      "id": "d-cinema-super-troopers-3",
+      "title": "Super Troopers 3",
+      "platform": "cinema",
+      "type": "film",
+      "date": "2026-08-07",
+      "blurb": "The Broken Lizard troopers return."
+    },
+    {
       "id": "d-netflix-outer-banks-season-5",
       "title": "Outer Banks — Season 5",
       "platform": "netflix",
       "type": "tv",
       "date": "2026-08-20",
       "blurb": "The final season of the treasure-hunt drama."
+    },
+    {
+      "id": "d-cinema-insidious-out-of-the-further",
+      "title": "Insidious: Out of the Further",
+      "platform": "cinema",
+      "type": "film",
+      "date": "2026-08-21",
+      "blurb": "New chapter in the horror franchise."
     },
     {
       "id": "d-alibi-bookish-series-2",
@@ -180,20 +220,28 @@
       "blurb": "Ryan Murphy’s anthology takes on the Borden case."
     },
     {
+      "id": "d-itv-the-blame",
+      "title": "The Blame",
+      "platform": "itv",
+      "type": "tv",
+      "date": "2026-09",
+      "blurb": "New ITV drama."
+    },
+    {
+      "id": "d-itv-trigger-point-series-4",
+      "title": "Trigger Point — Series 4",
+      "platform": "itv",
+      "type": "tv",
+      "date": "2026-09",
+      "blurb": "Vicky McClure returns as bomb-disposal officer Lana Washington."
+    },
+    {
       "id": "d-netflix-the-gentlemen-season-2",
       "title": "The Gentlemen — Season 2",
       "platform": "netflix",
       "type": "tv",
       "date": "2026-09-03",
-      "blurb": "Guy Ritchie’s crime comedy returns, this time set in Italy."
-    },
-    {
-      "id": "d-cinema-the-death-of-robin-hood",
-      "title": "The Death of Robin Hood",
-      "platform": "cinema",
-      "type": "film",
-      "date": "2026-09-04",
-      "blurb": "A darker take on the legend."
+      "blurb": "Guy Ritchie's crime comedy returns, set in Italy."
     },
     {
       "id": "d-cinema-practical-magic-2",
@@ -212,6 +260,14 @@
       "blurb": "Paul Greengrass thriller with Andrew Garfield and Jamie Bell."
     },
     {
+      "id": "d-netflix-best-of-the-best",
+      "title": "Best of the Best",
+      "platform": "netflix",
+      "type": "tv",
+      "date": "2026-09-18",
+      "blurb": "New Netflix series."
+    },
+    {
       "id": "d-cinema-manhunter",
       "title": "Manhunter",
       "platform": "cinema",
@@ -225,7 +281,39 @@
       "platform": "cinema",
       "type": "film",
       "date": "2026-09-25",
-      "blurb": "Georgia Oakley’s Austen adaptation — Daisy Edgar-Jones, Caitríona Balfe, George MacKay, Fiona Shaw."
+      "blurb": "Georgia Oakley's Austen adaptation with Daisy Edgar-Jones."
+    },
+    {
+      "id": "d-cinema-knife-the-attempted-murder-of-salman-rus",
+      "title": "Knife: The Attempted Murder of Salman Rushdie",
+      "platform": "cinema",
+      "type": "film",
+      "date": "2026-09-30",
+      "blurb": "Dramatisation of the 2022 attack on the author."
+    },
+    {
+      "id": "d-disney-murdaugh-death-in-the-family",
+      "title": "Murdaugh: Death in the Family",
+      "platform": "disney",
+      "type": "tv",
+      "date": "2026-10",
+      "blurb": "Dramatisation of the Murdaugh case."
+    },
+    {
+      "id": "d-cinema-the-death-of-robin-hood",
+      "title": "The Death of Robin Hood",
+      "platform": "cinema",
+      "type": "film",
+      "date": "2026-10",
+      "blurb": "A darker take on the legend, with Hugh Jackman."
+    },
+    {
+      "id": "d-disney-the-lost-station-girls",
+      "title": "The Lost Station Girls",
+      "platform": "disney",
+      "type": "tv",
+      "date": "2026-10",
+      "blurb": "New period drama."
     },
     {
       "id": "d-cinema-digger",
@@ -233,7 +321,7 @@
       "platform": "cinema",
       "type": "film",
       "date": "2026-10-02",
-      "blurb": "Iñárritu film starring Tom Cruise, Sandra Hüller and John Goodman."
+      "blurb": "Iñárritu film with Tom Cruise, Sandra Hüller and John Goodman."
     },
     {
       "id": "d-cinema-verity",
@@ -241,7 +329,23 @@
       "platform": "cinema",
       "type": "film",
       "date": "2026-10-02",
-      "blurb": "Thriller adapted from the Colleen Hoover novel (Sony)."
+      "blurb": "Thriller adapted from the Colleen Hoover novel."
+    },
+    {
+      "id": "d-prime-carrie-season-1",
+      "title": "Carrie — Season 1",
+      "platform": "prime",
+      "type": "tv",
+      "date": "2026-10-07",
+      "blurb": "Series adaptation of the Stephen King novel."
+    },
+    {
+      "id": "d-disney-the-vision",
+      "title": "The Vision",
+      "platform": "disney",
+      "type": "tv",
+      "date": "2026-10-14",
+      "blurb": "Marvel series with Paul Bettany and James Spader."
     },
     {
       "id": "d-cinema-predator-badlands",
